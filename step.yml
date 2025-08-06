@@ -2,7 +2,7 @@ title: Set Study Type
 description: Select the study type for this build
 type: script
 inputs:
-  - STUDY_TYPE: "sleep" # Default study type
+  - STUDY_TYPE: "$STUDY_TYPE"
     opts:
       title: Select Study
       summary: Choose which study this build is for
