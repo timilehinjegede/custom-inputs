@@ -1,0 +1,15 @@
+title: Set Study Type
+description: Select the study type for this build
+type: script
+inputs:
+  - STUDY_TYPE: "sleep" # Default study type
+    opts:
+      title: Select Study
+      summary: Choose which study this build is for
+      value_options:
+        - sleep
+        # TODO: Add other study types
+        - yoga
+        - meditation
+        - breathing
+      is_required: true
